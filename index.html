@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>교복 학교주관구매 길라잡이 (연습판)</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">본문 바로가기</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/home" aria-label="홈으로">
+      <span class="brand-mark">전북</span>
+      <span class="brand-text"><strong>전북특별자치도교육청</strong><small>교복 학교주관구매 길라잡이 · 연습판</small></span>
+    </a>
+    <form class="global-search" id="globalSearch" role="search">
+      <label class="sr-only" for="globalSearchInput">서식 검색</label>
+      <input id="globalSearchInput" type="search" placeholder="서식명 또는 F-번호 검색">
+    </form>
+    <a class="badge-progress" id="progressBadge" href="#/input/common" title="기초자료 입력 완성도"></a>
+  </div>
+  <nav class="mainnav" aria-label="주 메뉴">
+    <ul id="navList"></ul>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+  <nav class="breadcrumb" id="breadcrumb" aria-label="현재 위치"></nav>
+  <div id="view"></div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">전북특별자치도교육청 · 학습연구회 톡톡 — 연습용 화면입니다. 입력값은 이 브라우저 탭(세션)에만 저장됩니다.</div>
+</footer>
+
+<div class="modal-backdrop" id="modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="data/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
